@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 20px 0;
+}
+
+.news-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 15%;
+  margin: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  justify-content: space-between;
+  
+}
+
+.news-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.news-card p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.ad-section {
+  margin-top: 20px;
+  width: 800px;
+}
+
+.ad-image {
+  width: 100%;
+  height: auto;
+}
